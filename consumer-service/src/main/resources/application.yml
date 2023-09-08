@@ -1,0 +1,9 @@
+server.port: 8095
+spring.application.name: consumer-service
+spring.kafka.bootstrap-servers: http://localhost:9092
+
+spring.cloud.stream.function.definition: processPurchase
+
+spring.cloud.stream.bindings.processPurchase-in-0.destination: purchase
+
+
