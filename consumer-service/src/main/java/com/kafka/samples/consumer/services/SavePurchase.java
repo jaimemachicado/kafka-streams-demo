@@ -1,4 +1,4 @@
-package com.kafka.samples.consumer.logic;
+package com.kafka.samples.consumer.services;
 
 import com.kafka.samples.consumer.controller.mappers.PurchaseMapper;
 import com.kafka.samples.consumer.dtos.PurchaseDto;
@@ -26,7 +26,6 @@ public class SavePurchase {
 
   public void save(PurchaseDto purchaseDto) {
     purchaseRepository.save(purchaseMapper.purchaseDtoToPurchase(purchaseDto));
-    log.info("Saved purchase with id={}, product={}, amount={}", purchaseDto.getId(),
-        purchaseDto.getProduct(), purchaseDto.getAmount());
+    //log.info("Processed purchase {}", purchaseDto);
   }
 }

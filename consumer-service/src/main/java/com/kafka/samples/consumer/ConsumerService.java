@@ -1,7 +1,7 @@
 package com.kafka.samples.consumer;
 
 import com.kafka.samples.consumer.dtos.PurchaseDto;
-import com.kafka.samples.consumer.logic.SavePurchase;
+import com.kafka.samples.consumer.services.SavePurchase;
 import java.util.function.Consumer;
 import org.apache.kafka.streams.kstream.KStream;
 import org.slf4j.Logger;
@@ -27,7 +27,7 @@ public class ConsumerService {
   public Consumer<KStream<Long, PurchaseDto>> processPurchase() {
     return (purchase) -> purchase
         .peek((k, v) -> {
-          log.info("New purchase: key {}, value {}", k, v);
+          //log.info("New purchase: key {}, value {}", k, v);
           savePurchase.save(v);
         });
   }

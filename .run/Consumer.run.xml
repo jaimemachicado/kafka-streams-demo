@@ -1,0 +1,8 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Consumer" type="Multirun" separateTabs="false" reuseTabsWithFailures="false" startOneByOne="true" markFailedProcess="true" hideSuccessProcess="false" delayTime="0.0">
+    <runConfiguration name="ConsumerService" type="Application" />
+    <method v="2">
+      <option name="RunConfigurationTask" enabled="true" run_configuration_name="consumer-service" run_configuration_type="MavenRunConfiguration" />
+    </method>
+  </configuration>
+</component>

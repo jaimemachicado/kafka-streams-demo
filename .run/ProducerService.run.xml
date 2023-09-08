@@ -1,0 +1,15 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="ProducerService" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="com.kafka.samples.producer.ProducerService" />
+    <module name="producer-service" />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="pl.piomin.samples.kafka.order.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

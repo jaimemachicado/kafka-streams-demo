@@ -1,0 +1,7 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Run All" type="CompoundRunConfigurationType">
+    <toRun name="Consumer" type="Multirun" />
+    <toRun name="Producer" type="Multirun" />
+    <method v="2" />
+  </configuration>
+</component>

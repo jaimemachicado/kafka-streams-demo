@@ -1,0 +1,8 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Producer" type="Multirun" separateTabs="false" reuseTabsWithFailures="false" startOneByOne="true" markFailedProcess="true" hideSuccessProcess="false" delayTime="0.0">
+    <runConfiguration name="producer-service" type="Maven" />
+    <method v="2">
+      <option name="RunConfigurationTask" enabled="true" run_configuration_name="ProducerService" run_configuration_type="Application" />
+    </method>
+  </configuration>
+</component>
